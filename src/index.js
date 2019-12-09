@@ -1,5 +1,5 @@
 // URLs
-const API_ENDPOINT = "http://localhost:3000"
+const API_ENDPOINT = "https://chillax-app.herokuapp.com/"
 const URL_COMPOSITIONS = `${API_ENDPOINT}/compositions`
 const URL_SOUNDS = `${API_ENDPOINT}/sounds`
 
