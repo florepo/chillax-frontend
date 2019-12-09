@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>chillax</title>
+
+    <script type="text/javascript" src="src/index.js" defer></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/85fef6a22e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Banner -->
+
+    <div class="jumbotron text-center">
+        <h1>chillax</h1>
+        <p>Soundscape Composer</p> 
+    </div>
+    
+    <!-- Workspace -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 text-center" id="sound-container">
+                <h4>Select a track below...</h4>
+                <ul id="sound-list" class="list-unstyled">
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div>
+                        <div id="comp-player-btns">
+                            <h3 id="current-comp-name">My Soundscape</h3>
+                            <button id="playCompBtn" class="btn btn-primary"><i class="fa fa-play"></i></button>
+                            <button id="pauseCompBtn" class="btn btn-primary"><i class="fa fa-pause"></i></button>
+                            <button id="stopCompBtn" class="btn btn-primary"><i class="fa fa-stop"></i></button>
+                            <button id="clearAllBtn" class="btn btn-warning">Clear All</button>
+                        </div>
+                    </div>
+                    <div id="composition-sound-container" class="text-center">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="form-container">
+                        <form class="form">
+                            <div class="form-group">
+                                <label>Save as new:</label>
+                                <input type="text" name="name" value="" placeholder="Enter name..." class="input-text form-control">
+                            </div>
+                            <button type="submit" name="submit" class="submit btn btn-primary">Save Soundscape</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 text-center" id="composition-sound-container">
+                <div id="composition-container">
+                    <h4>Available Soundscapes</h4>
+                    <ul id="composition-list" class="list-unstyled">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="footer-bs">
+        <div class="row">
+            <div class="col-xs-4 text-center">
+                <h5 class="text-uppercase">Creators</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://github.com/flow1981" target="_blank">Florian Stagliano</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/tishchungoora" target="_blank">Tish Chungoora</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-4 text-center">
+                <h5 class="text-uppercase">Tech Stack Used</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources" target="_blank">JavaScript</a>
+                        </li>
+                    <li>
+                        <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+                    </li>
+                    <li>
+                        <a href="https://www.ruby-lang.org/" target="_blank">Ruby</a>
+                    </li>
+                    <li>
+                        <a href="https://rubyonrails.org/" target="_blank">Rails</a>
+                    </li>
+                    <li>
+                        <a href="https://guides.rubyonrails.org/active_record_basics.html" target="_blank">Active Record</a>
+                    </li>
+                    <li>
+                        <a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-4 text-center">
+                <h5 class="text-uppercase">Acknowledgements</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>   
+                    </li>
+                    <li>
+                        <a href="http://bbcsfx.acropolis.org.uk/" target="_blank">BBC Sound Effects</a>   
+                    </li>
+                    <li>
+                        <a href="https://www.cssscript.com/gradient-slider-control-pure-javascript-slider-js/" target="_blank">Muilticolor Slider from ogostos</a>   
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="row text-center">
+            <div>© 2019</div>
+        </div>
+    </footer>
+
+  </body>
+</html>

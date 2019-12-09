@@ -1,0 +1,124 @@
+/* SOUND CARD */
+
+.card {
+    width: 21rem;
+    display: inline-grid;
+    margin: 20px;
+    padding: 5px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+}
+
+#close {
+    color: #ff0000;
+    /* margin-bottom: 5px; */
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+} 
+
+.card-img-top {
+    position: relative;
+    margin: 0 auto;
+    width: 10rem;
+    height: 10rem;
+    padding-top: 8px;
+}
+
+.card-title {
+    position: relative;
+    text-align: center;
+}
+
+.player {
+    position: relative;
+    width: 20rem;
+    height: 3rem;
+}
+
+/* SOUND LIST STYLES */
+
+#sound-list li {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(241, 209, 173);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#sound-container h4 {
+    margin-top: 20px;
+}
+
+/* COMPOSITION MAKING AREA */
+
+#stopCompBtn {
+    margin-right: 10px;
+}
+
+#comp-player-btns {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#composition-sound-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.form {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.slider-container {
+    margin: 0 auto;
+}
+
+/* COMPOSITION LIST STYLES */
+
+#composition-list li {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(191, 231, 245);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#composition-list button.btn-primary {
+    margin-right: 5px;
+}
+
+#composition-list button.btn-danger {
+    margin-left: 5px;
+}
+
+#composition-sound-container h4 {
+    margin-top: 20px;
+}
+
+/* FOOTER STYLES */
+
+.footer-bs {
+    background-color: #3c3d41;
+	padding: 20px;
+    color: rgba(255,255,255,1.00);
+    margin-top: 80px;
+}
+
+.footer-bs a {
+    color: white;
+}
+
+.footer-bs a:hover {
+    color: white;
+}
+
+.footer-bs a:visited {
+    color: white;
+}
