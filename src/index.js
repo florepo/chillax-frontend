@@ -138,9 +138,11 @@ const stopSoundHandler = (event) => {
     player.currentTime = 0;
 }
 
-const removeSoundHandler = (event, composition) => {
-    event.target.parentNode.parentNode.parentNode.parentNode.remove()
+const removeSoundHandler = (event) => {
+    const parentCard = event.target.closest(".card")
+    parentCard.remove()
 }
+
 
 //DATA HANDLING
 
