@@ -39,7 +39,7 @@ jobs:
       # - run: CI=false yarn run build
 
       - aws-s3/sync:
-          from: ~/repo/build/
+          from: ~/repo/
           to: "s3://chillax-app.net"
           arguments: |
             --acl public-read \
